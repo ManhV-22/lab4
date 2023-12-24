@@ -1,0 +1,33 @@
+.menu{
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+}
+
+.menu>li>a{
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.menu>li>a:link{
+  color: white;
+}
+
+.menu>li>a:visited{
+  color: white;
+}
+
+.menu>li>a:hover>.small-menu{
+  display: block;
+}
+
+.small-menu{
+  position: absolute;
+  display: none;
+  
+}
