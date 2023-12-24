@@ -1,0 +1,89 @@
+body{
+    background-color:#8A2BE2;
+}
+  
+.box1{
+    background-color: #00FF00;
+    height: 100px;
+    width: 250px;
+    border-top-left-radius: 125px;
+    border-top-right-radius: 125px;
+}
+div.box1:hover{
+    background-color: pink;
+}
+
+div.menu{
+    width: 100%;
+    height: 15%;
+    padding: 3px;
+    background-color: black;
+    background-image: url('https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png' );
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+ul.list-menu{
+    list-style: none;
+    overflow: hidden;
+    color: #fff
+}
+
+.para1{
+    font-size: 60px;
+    color: #00FF00;
+    font-family: 'Navbar';
+    text-align: center;
+    font-weight: bold;
+    line-height: 100px;
+}
+.para2{
+    text-align: center;
+    color: #00FF00;
+    font-family:'Times New Roman';
+}
+
+.box{
+    height: 30px;
+    width: 350px;
+    background-color: #00FF00;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+   
+
+
+li{
+
+    float: right;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+div>ul>li>a:link{
+    color: #fff;
+}
+div>ul>li>a:hover{
+    color: #00FF00;
+}
+div>ul>li>a:visited{
+    color: #fff;
+}
+
+div.box>a:link{
+    color: #8A2BE2;
+}
+
+div.box:hover{
+    background-color: orange;
+}
+
